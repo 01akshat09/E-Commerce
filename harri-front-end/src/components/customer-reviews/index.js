@@ -31,8 +31,11 @@ const CustomerReviews = () => {
     <div className="container py-5">
       {/* Header */}
       <div className="text-center mb-4">
-        <h2>Customers About PC Studio</h2>
-        <hr className="w-25 mx-auto" style={{ borderTop: "3px solid orange" }} />
+        <h2>Customers About harri. Shop</h2>
+        <hr
+          className="w-25 mx-auto"
+          style={{ borderTop: "3px solid orange" }}
+        />
       </div>
 
       {/* Reviews Section */}
@@ -65,7 +68,8 @@ const CustomerReviews = () => {
               <div className="card-body">
                 <div className="d-flex align-items-center mb-3">
                   {/* Avatar or Letter */}
-                  {typeof review.avatar === "string" && review.avatar.length === 1 ? (
+                  {typeof review.avatar === "string" &&
+                  review.avatar.length === 1 ? (
                     <div
                       className="rounded-circle bg-warning text-white d-flex align-items-center justify-content-center"
                       style={{

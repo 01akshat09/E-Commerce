@@ -49,7 +49,7 @@ const Header = ({ style_2 = false }) => {
                   <div className="col-xxl-5 col-xl-3 col-lg-8 col-md-8 col-sm-7 col-4">
                     <div className="header__bottom-right-13 d-flex justify-content-end align-items-center pl-30">
                       <div className="header__search-13">
-                        <SearchForm/>
+                        <SearchForm />
                       </div>
                       <div className="header__action-13 d-none d-md-block">
                         <ul>
@@ -58,7 +58,7 @@ const Header = ({ style_2 = false }) => {
                               <Search />
                             </a>
                           </li>
-                          {userInfo?.imageURL ? (
+                          {/* {userInfo?.imageURL ? (
                             <li>
                               <Link href="/user-dashboard">
                                 <Image
@@ -87,7 +87,7 @@ const Header = ({ style_2 = false }) => {
                                 <User />
                               </Link>
                             </li>
-                          )}
+                          )} */}
                           <li>
                             <Link href="/wishlist">
                               <Heart />

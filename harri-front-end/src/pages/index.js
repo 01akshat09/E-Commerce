@@ -12,12 +12,13 @@ import ShopFeature from "@components/shop-feature";
 import ShopCta from "@components/cta";
 import Footer from "@layout/footer";
 import CustomerReviews from "@components/customer-reviews";
-
+import Popup from "@components/popup";
 
 const HomeShop = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Home Shop"} />
+      <Popup />
       <Header />
       <HeroBanner />
       <ShopCategoryArea />
@@ -25,7 +26,7 @@ const HomeShop = () => {
       <OfferPopularProduct />
       <ShopBanner />
       <ShopFeature />
-      <CustomerReviews/>
+      <CustomerReviews />
       <ShopCta />
       <Footer />
     </Wrapper>

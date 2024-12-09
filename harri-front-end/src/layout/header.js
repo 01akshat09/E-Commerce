@@ -5,13 +5,13 @@ import { useSelector } from "react-redux";
 // internal
 import Menus from "./menus";
 import logo from "@assets/img/logo/logo-black.svg";
+import logo2 from "@assets/img/logo/logo3.jpg";
 import { Cart, Heart, Search, User } from "@svg/index";
 import useSticky from "@hooks/use-sticky";
 import CartSidebar from "@components/common/sidebar/cart-sidebar";
 import OffCanvas from "@components/common/off-canvas";
 import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
-
 const Header = ({ style_2 = false }) => {
   const { sticky } = useSticky();
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -35,7 +35,7 @@ const Header = ({ style_2 = false }) => {
                   <div className="col-xxl-1 col-xl-2 col-lg-4 col-md-4 col-sm-5 col-8">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image src={logo2} alt="logo" height={70} width={70} />
                       </Link>
                     </div>
                   </div>
